@@ -8,6 +8,9 @@ JAn. 8, 2012 - forked by Dan Foreman-Mackey
 
 """
 
+__all__ = ['add_nonstructural_headers', 'cut_array', 'tabledata', 'fits_table',
+        'text_table_fields']
+
 import pyfits
 import numpy
 from numpy import array, isscalar
