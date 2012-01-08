@@ -1,3 +1,5 @@
+__all__ = ['Frame', 'DR8']
+
 import pyfits
 
 from common import *
