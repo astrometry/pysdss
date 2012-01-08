@@ -4,3 +4,4 @@ build
 *.so
 *.swp
 build/*
+.DS_Store
