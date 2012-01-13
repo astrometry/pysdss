@@ -5,3 +5,4 @@ build
 *.swp
 build/*
 .DS_Store
+*/.svn/*

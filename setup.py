@@ -5,6 +5,7 @@ from distutils.core import setup
 setup(name='pysdss',
         version='0',
         author='Camp Hogg',
-        packages=['sdss', 'sdss.astro'],
+        url='https://github.com/camphogg/pysdss',
+        packages=['pysdss', 'pysdss.astro'],
         )
 
