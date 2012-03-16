@@ -361,6 +361,8 @@ class FpC(SdssFile):
         self.filetype = 'fpC'
     def getImage(self):
         return self.image
+    def setHdus(self, p):
+        self.hdus = p
 
 class PsField(SdssFile):
     def __init__(self, *args, **kwargs):

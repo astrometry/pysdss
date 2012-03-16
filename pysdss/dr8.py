@@ -20,8 +20,8 @@ class DR8(DR7):
             'frame': 'frame-%(band)s-%(run)06i-%(camcol)i-%(field)04i.fits',
             })
 
-        def readFrame(self, run, camcol, field, band, filename=None):
-            '''
+    def readFrame(self, run, camcol, field, band, filename=None):
+        '''
         http://data.sdss3.org/datamodel/files/BOSS_PHOTOOBJ/frames/RERUN/RUN/CAMCOL/frame.html
         '''
         f = Frame(run, camcol, field, band)

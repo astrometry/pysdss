@@ -89,6 +89,7 @@ class DR7(object):
         p = self._open(fn)
         #print 'got', len(p), 'HDUs'
         f.image = p[0].data
+        f.setHdus(p)
         return f
 
     def readFpObjc(self, run, camcol, field):
